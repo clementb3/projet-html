@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Formulaire géneral</title>
+    <link rel="stylesheet" type="text/css" href="fichier.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <h1>info 1ere connexion</h1>
+            <h2>Saisissez le contenu du Frm suivant<br></h2>
+            <label for="name">Nom</label>
+            <input type="text" id="nom" name="nom_client" placeholder="Saisissez votre nom s'il vous plait" class="input" /><br>
+            <label for="mdp">Mot de passe</label>
+            <input type="password" id="mdp" name="mdp_client" placeholder="votre mot de passe" class="input" /><br>
+            <label for="date">Date de réservation</label>
+            <input type="date" id="date" name="date_client" /><br>
+        </fieldset>
+        <fieldset>
+            <h1>Info Supplémentaires</h1>
+            <h4>Saisissez le contenu du formulaire suivant<br /></h4>
+            <label for="genre">Genre:</label>
+            <select name="Genre">
+                <option value="Hommes">Monsieur</option>
+                <option value="Femmes">Madame</option>
+                <option value="Autres">Autres</option>
+            </select><br /><br />
+            <label for="mode">mode de transport</label>
+            <input type="checkbox" id="velo" name="mode_de_transport" value="Velo">
+            <label for="vélo">Vélo</label>
+            <input type="checkbox" id="pied" name="mode_de_transport" value="A pied">
+            <label for="vélo">A pied</label>
+            <input type="checkbox" id="Montgolfiere" name="mode_de_transport" value="mongolfière">
+            <label for="vélo">mongolfière</label>
+            <input type="checkbox" id="autres" name="mode_de_transport" value="autres">
+            <label for="vélo">autres</label><br><br />
+            <label for="age">Age</label>
+            <input type="radio" id="Jeune" name="age" value="Jeune">
+            <label for="Jeune">Jeune</label>
+            <input type="radio" id="actif" name="age" value="Actif">
+            <label for="Actif">Actif</label>
+            <input type="radio" id="senior" name="age" value="Sénior">
+            <label for="Sénior">Sénior</label><br><br />
+        </fieldset>
+        <fieldset>
+            <h1>Utilisation datalist</h1>
+            <h4>Saisissez le contenu du Frm suivant<br></h4>
+            <label for="modehab">Quel est votre mode de transport habituel</label>
+            <input type="text" id="modehab" name="mode_habituel">
+            <br>
+            <br />
+            <label for="modebinome">Quel est le mode de transport de votre habituel</label>
+            <input list="lmodebinome" id="modebinome" name="mode_binome" />
+            <datalist id="lmodebinome">
+                <option value="A pied">
+                <option value="Montgolfière">
+                <option value="A cheval">
+                <option value="Voiture">
+                <option value="Jet privé">
+            </datalist>
+            <br>
+            <br />
+            <label for="trage">Tranche d'age</label>
+            <input type="range" id="trage" name="tranche_age" value="tranche d'age" max="100" min="0" list="age" />
+            <datalist id="age">
+                <option value="0" label="jeune"></option>
+                <option value="18" label="actif"></option>
+                <option value="60" label="seinor"></option>
+            </datalist>
+            <label for="lsite">Liste des sites</label>
+            <input list="lisite" id="lsite" name="list_des_sites" />
+            <datalist id="lisite">
+                <option value="https://www.iut-valence.fr">
+                <option value="https://www.univ-grenoble-alpes.fr">
+                <option value="http://www.aduda.fr">
+            </datalist><br />
+            <label for="valider"></label>
+            <input type="submit" id="submit" name="valider" value="valider" />
+            <label for="raz"></label>
+            <input type="reset" id="reset" name="raz" value="annuler">
+        </fieldset>
+    </form>
+</body>
+</html>

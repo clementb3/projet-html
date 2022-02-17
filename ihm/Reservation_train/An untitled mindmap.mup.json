@@ -1,0 +1,171 @@
+{
+  "formatVersion": 3,
+  "id": "root",
+  "ideas": {
+    "1": {
+      "title": "Site gestion de billet de train",
+      "id": 1,
+      "attr": {
+        "position": [
+          -79,
+          -24,
+          1
+        ],
+        "style": {
+          "fontMultiplier": 2
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "réserver billet",
+          "id": 4,
+          "ideas": {
+            "5": {
+              "title": "vérifier disponibilité",
+              "attr": {
+                "style": {
+                  "fontMultiplier": 1.5
+                }
+              },
+              "ideas": {},
+              "id": 33
+            },
+            "6": {
+              "title": "récupération de donnée du compte",
+              "attr": {
+                "style": {
+                  "fontMultiplier": 1.5
+                }
+              },
+              "ideas": {},
+              "id": 38
+            },
+            "7": {
+              "title": "saisie d'information",
+              "attr": {
+                "style": {
+                  "fontMultiplier": 1.5
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "saisie de l'heure de départ",
+                  "attr": {
+                    "style": {
+                      "fontMultiplier": 1.5
+                    }
+                  },
+                  "ideas": {},
+                  "id": 40
+                },
+                "2": {
+                  "title": "saisie ville départ et arrivé",
+                  "attr": {
+                    "style": {
+                      "fontMultiplier": 1.5
+                    }
+                  },
+                  "ideas": {},
+                  "id": 41
+                }
+              },
+              "id": 39
+            }
+          },
+          "attr": {
+            "style": {
+              "fontMultiplier": 1.5,
+              "backgroundColor": "#FFFFFF"
+            }
+          }
+        },
+        "3": {
+          "title": "accéder a l'historique des réservations",
+          "attr": {
+            "style": {
+              "fontMultiplier": 1.5,
+              "backgroundColor": "#FFFFFF"
+            },
+            "position": [
+              100,
+              159,
+              1
+            ]
+          },
+          "ideas": {
+            "1": {
+              "title": "récupération des billet acheter par le compte",
+              "attr": {
+                "style": {
+                  "fontMultiplier": 1.5
+                }
+              },
+              "ideas": {},
+              "id": 42
+            }
+          },
+          "id": 10
+        },
+        "-2": {
+          "title": "définition du compte",
+          "attr": {
+            "style": {
+              "fontMultiplier": 1.5,
+              "backgroundColor": "#FFFFFF"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "création de compte",
+              "attr": {
+                "style": {
+                  "fontMultiplier": 1.5
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "saisie donné personnel",
+                  "attr": {
+                    "style": {
+                      "fontMultiplier": 1.5
+                    }
+                  },
+                  "ideas": {},
+                  "id": 35
+                }
+              },
+              "id": 34
+            },
+            "2": {
+              "title": "connexion au compte",
+              "attr": {
+                "style": {
+                  "fontMultiplier": 1.5
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "modification de donné personnel",
+                  "attr": {
+                    "style": {
+                      "fontMultiplier": 1.5
+                    }
+                  },
+                  "ideas": {},
+                  "id": 37
+                }
+              },
+              "id": 36
+            }
+          },
+          "id": 13
+        }
+      }
+    }
+  },
+  "title": "Site gestion de billet de train",
+  "links": [],
+  "attr": {
+    "theme": "topdownSimple"
+  }
+}

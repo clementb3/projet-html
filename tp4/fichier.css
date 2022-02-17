@@ -1,0 +1,26 @@
+﻿h1 {
+    color: crimson;
+    letter-spacing:0.5em;
+    text-align:center;
+    background-color:yellowgreen;
+    font-style:italic;
+}
+h2 {
+    color: forestgreen;
+    font-weight:bolder;
+    font-style:italic;
+    letter-spacing:0.4em;
+    border:double;
+}
+
+li {
+    font-style :italic;
+}
+
+ul {
+    color: darkblue;
+    font-weight: bolder;
+}
+ methode {
+     font-family: Verdana ;
+ }

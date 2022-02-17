@@ -1,0 +1,74 @@
+﻿body{
+	background-color:#cacaca;
+}
+
+nav{
+	background-color:#0a904f;
+	margin:-0.5%;
+	margin-bottom:5%;
+}
+
+#logo {
+	position: absolute;
+	margin-left: 150px;
+	height:100px ;
+	weight:100px;
+}
+
+#reche {
+	margin-left: 30%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-size: x-large;
+	position: absolute;
+	padding-right:200px
+}
+#panier {
+	position: absolute;
+	left:90%;
+	margin-top:2%;
+	height:50px;
+	weight:50px;
+}
+
+menu{
+	margin-top:5%;
+	background-color:#065831;
+	text-decoration:none;
+}
+
+menu a{
+	font-size:x-large;
+	margin-left:75px;
+	margin-right:75px;
+	color:white;
+	text-decoration:none;
+	font-style:inherit;
+}
+
+.line {
+	border-left: solid;
+	border-width: 1px;
+	color:#00000000;
+	border-color:white;
+	margin:0;
+}
+menu a:first-of-type{
+	margin-left:200px;
+}
+
+menu li:hover{
+	background-color:#148f6d
+}
+
+#ete {
+	margin-top:-5%;
+	margin-left:5%;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire2 TP2</title>
+    <link rel="stylesheet" type="text/css" href="fichier.css">
+</head>
+<header>
+    <link rel="stylesheet" type="text/css" href="stylemenu.css">
+    <nav class="menu-horizontal">
+        <ul>
+            <li>
+                <a>Page HTML</a>
+                <ul class="niveau2">
+                    <li>
+                        <a href="../TP1/page1.html" target="infos">Page 1</a>
+                    </li>
+                    <li>
+                        <a href="../TP1/binome/contact1.html" target="infos">contact 1</a>
+                    </li>
+                    <li>
+                        <a href="../TP1/binome/contact2.html" target="infos">contact 1</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a>Formulaire</a>
+                <ul class="niveau2">
+                    <li>
+                        <a href="../TP2/formulaire.html" target="infos">Formulaire</a>
+                    </li>
+                    <li>
+                        <a href="../TP2/TP3Frm1.html" target="infos">Formulaire 1</a>
+                    </li>
+                    <li>
+                        <a href="../TP2/TP3Frm2.html" target="infos">Formulaire 2</a>
+                    </li>
+                    <li>
+                        <a href="../TP2/TP3Frm3.html" target="infos">Formulaire 3</a>
+                    </li>
+                    <li>
+                        <a href="../TP2/FrmGen.html" target="infos">Formulaire Géneral</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a>Page CSS</a>
+                <ul class="niveau2">
+                    <li>
+                        <a href="../TP3/page1.html" target="infos">Page 1</a>
+                    </li>
+                    <li>
+                        <a href="../TP3/binome/contact1.html" target="infos">contact 1</a>
+                    </li>
+                    <li>
+                        <a href="../TP3/binome/contact2.html" target="infos">contact 1</a>
+                    </li>
+                    <li>
+                        <a href="../TP3/formulaire.html" target="infos">Formulaire</a>
+                    </li>
+                    <li>
+                        <a href="../TP3/TP3Frm1.html" target="infos">Formulaire 1</a>
+                    </li>
+                    <li>
+                        <a href="../TP2/TP3Frm2.html" target="infos">Formulaire 2</a>
+                    </li>
+                    <li>
+                        <a href="../TP3/TP3Frm3.html" target="infos">Formulaire 3</a>
+                    </li>
+                    <li>
+                        <a href="../TP3/FrmGen.html" target="infos">Formulaire Géneral</a>
+                    </li>
+                    <li>
+                        <a href="../TP3/tableauFusion.html" target="infos">Tableau Fusion</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a>Page menu</a>
+                <ul class="niveau2">
+                    <li>
+                        <a href="page1.html" target="infos">Page 1</a>
+                    </li>
+                    <li>
+                        <a href="binome/contact1.html" target="infos">contact 1</a>
+                    </li>
+                    <li>
+                        <a href="binome/contact2.html" target="infos">contact 1</a>
+                    </li>
+                    <li>
+                        <a href="formulaire.html" target="infos">Formulaire</a>
+                    </li>
+                    <li>
+                        <a href="TP3Frm1.html" target="infos">Formulaire 1</a>
+                    </li>
+                    <li>
+                        <a href="TP3Frm2.html" target="infos">Formulaire 2</a>
+                    </li>
+                    <li>
+                        <a href="TP3Frm3.html" target="infos">Formulaire 3</a>
+                    </li>
+                    <li>
+                        <a href="FrmGen.html" target="infos">Formulaire Géneral</a>
+                    </li>
+                    <li>
+                        <a href="tableauFusion.html" target="infos">Tableau Fusion</a>
+                    </li>
+                    <li>
+                        <a href="menu.html" target="infos">menu</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <form>
+        <h4>Saisissez le contenu du formulaire suivant<br /></h4>
+        <label for="genre">Genre:</label>
+        <select name="Genre">
+            <option value="Hommes">Monsieur</option>
+            <option value="Femmes">Madame</option>
+            <option value="Autres">Autres</option>
+        </select><br /><br />
+        <label for="mode">mode de transport</label>
+        <input type="checkbox" id="velo" name="mode_de_transport" value="Velo">
+        <label for="vélo">Vélo</label>
+        <input type="checkbox" id="pied" name="mode_de_transport" value="A pied">
+        <label for="vélo">A pied</label>
+        <input type="checkbox" id="Montgolfiere" name="mode_de_transport" value="mongolfière">
+        <label for="vélo">mongolfière</label>
+        <input type="checkbox" id="autres" name="mode_de_transport" value="autres">
+        <label for="vélo">autres</label><br><br />
+        <label for="age">Age</label>
+        <input type="radio" id="Jeune" name="age" value="Jeune">
+        <label for="Jeune">Jeune</label>
+        <input type="radio" id="actif" name="age" value="Actif">
+        <label for="Actif">Actif</label>
+        <input type="radio" id="senior" name="age" value="Sénior">
+        <label for="Sénior">Sénior</label><br><br />
+        <label for="valider"></label>
+        <input type="submit" id="submit" name="valider" value="valider" />
+        <label for="raz"></label>
+        <input type="reset" id="reset" name="raz" value="annuler"><br>
+    </form>
+</body>

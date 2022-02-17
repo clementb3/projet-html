@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire TP2</title>
+</head>
+<body style="background-color:#c6c6c6;">
+<h2>Inscription Formulaire</h2>
+<form action="mailto:Eased.God.Of.Light@gmail.com?subject=VotreInscriptionClub" method="post" class="form_1" align="center"><h3>
+    <fieldset class="info">
+        <legend><h1><i>Informations</i></h1></legend>
+        <label for="fgenre">Genre:</label><br>
+        <select name="Genre">
+            <option value="Hommes">M</option>
+            <option value="Femmes">Mme</option>
+            <option value="Autres">Melle</option>
+        </select>
+        <br>
+        <label for="fname">Nom:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Saisissez votre nom" class="input" /><br>
+        <label for="fage">Age</label> <br>
+        <input type="radio" id="-18 ans" name="Age" value="-18 ans" />
+        <label for="-18 ans">-18 ans</label>
+        <input type="radio" id="18-25 ans" name="Age" value="18-25 ans" />
+        <label for="18-25 ans">18-25 ans</label>
+        <input type="radio" id="25-40 ans" name="Age" value="25-40 ans" />
+        <label for="25-40 ans">25-40 ans</label>
+        <input type="radio" id="40-60" name="Age" value="40-60 ans" />
+        <label for="40-60 ans">40-60 ans</label>
+        <input type="radio" id="+ 60 ans" name="Age" value="+ 60 ans" />
+        <label for="+ 60 ans">+ 60 ans</label> <br>
+        <label for="Anaisse">année de naissance:</label><br>
+        <input type="text" id="anaisse" name="annee_naissance" placeholder="Année de naissance" class="input" /><br>
+        <label for="nb">nombre d'équipe </label>
+        <input type="hidden" id="nb" name="nombre_equip" value="nombre" /><br />
+        <label for="fequipe">Equipes de foot </label><br>
+        <input type="checkbox" id="Equipe 1" name="Equipe1" value="PSG">
+        <label for="Equipe1">PSG</label>
+        <input type="checkbox" id="Equipe 2" name="Equipe2" value="OM">
+        <label for="Equipe2"> OM </label>
+        <input type="checkbox" id="Equipe 3" name="Equipe3" value="BA">
+        <label for="Equipe3"> Barcelone </label>
+        <input type="checkbox" id="Equipe 4" name="Equipe4" value="NEU">
+        <label for="Equipe4"> Neuilly </label>
+        <input type="checkbox" id="Equipe 5" name="Equipe5" value="Other">
+        <label for="Equipe5"> Autres </label><br />
+    </fieldset>
+
+    <fieldset>
+        <legend><h1><i>Contact</i></h1></legend>
+        <label for="ftelephone">Votre numéro de téléphone:</label><br>
+        <input type="tel" pattern="^((\+\d{1,3}(-| )?\(?\d\)?(-| )?\d{1,5})|(\(?\d{2,6}\)?))(-| )?(\d{3,4})(-| )?(\d{4})(( x| ext)\d{1,5}){0,1}$" id="ftelephone" name="ftelephone" placeholder="Votre numéro de téléphone" value="" class="tel" class="input" /><br>
+        <label for="lemail">Votre email:</label><br>
+        <input type="email" id="lemail" name="lemail" placeholder="Votre@dresse.fr" required class="input mail" /><br>
+    </fieldset>
+    <fieldset>
+        <legend><h1><i>Informations supplémentaires</i></h1></legend>
+        <label for="fcolor">Votre couleur préférée:</label><br>
+        <input type="color" id="fcolor" name="fcolor" value="Saisissez votre couleur préférée" /><br>
+        <label for="flevel">Votre niveau d'expertise en web</label><br>
+        <input type="range" id="flevel" name="flevel" value="Saisissez votre niveau d'expertise web" class="input" max="100" list="nivdev" />
+        <datalist id="nivdev">
+            <option value="0" label="nul"></option>
+            <option value="25" label="debutant"></option>
+            <option value="50" label="moyen"></option>
+            <option value="75" label="fort"></option>
+            <option value="100" label="tres_fort"></option>
+        </datalist>
+    </fieldset>
+    <input type="submit" id="submit" value="valider" class="submit">
+    <input type="reset" id="reset" value="reset" class="reset">
+    </h3>
+
+</form> 
+</body>
+</html>

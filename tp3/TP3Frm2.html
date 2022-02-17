@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire2 TP2</title>
+    <link rel="stylesheet" type="text/css" href="fichier.css">
+</head>
+<body>
+    <form>
+        <h4>Saisissez le contenu du formulaire suivant<br /></h4>
+        <label for="genre">Genre:</label>
+        <select name="Genre">
+            <option value="Hommes">Monsieur</option>
+            <option value="Femmes">Madame</option>
+            <option value="Autres">Autres</option>
+        </select><br /><br />
+        <label for="mode">mode de transport</label>
+        <input type="checkbox" id="velo" name="mode_de_transport" value="Velo">
+        <label for="vélo">Vélo</label>
+        <input type="checkbox" id="pied" name="mode_de_transport" value="A pied">
+        <label for="vélo">A pied</label>
+        <input type="checkbox" id="Montgolfiere" name="mode_de_transport" value="mongolfière">
+        <label for="vélo">mongolfière</label>
+        <input type="checkbox" id="autres" name="mode_de_transport" value="autres">
+        <label for="vélo">autres</label><br><br />
+        <label for="age">Age</label>
+        <input type="radio" id="Jeune" name="age" value="Jeune">
+        <label for="Jeune">Jeune</label>
+        <input type="radio" id="actif" name="age" value="Actif">
+        <label for="Actif">Actif</label>
+        <input type="radio" id="senior" name="age" value="Sénior">
+        <label for="Sénior">Sénior</label><br><br />
+        <label for="valider"></label>
+        <input type="submit" id="submit" name="valider" value="valider" />
+        <label for="raz"></label>
+        <input type="reset" id="reset" name="raz" value="annuler"><br>
+    </form>
+</body>

@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Formulaire3 TP2</title>
+    <link rel="stylesheet" type="text/css" href="fichier.css">
+</head>
+<body>
+    <form>
+    <h4>Saisissez le contenu du Frm suivant<br></h4>
+    <label for="modehab">Quel est votre mode de transport habituel</label>
+    <input type="text" id="modehab" name="mode_habituel">
+    <br>
+    <br />
+    <label for="modebinome">Quel est le mode de transport de votre habituel</label>
+    <input list="lmodebinome" id="modebinome" name="mode_binome" />
+    <datalist id="lmodebinome">
+        <option value="A pied">
+        <option value="Montgolfière">
+        <option value="A cheval">
+        <option value="Voiture">
+        <option value="Jet privé">
+    </datalist>
+    <br>
+    <br />
+    <label for="trage">Tranche d'age</label>
+    <input type="range" id="trage" name="tranche_age" value="tranche d'age" max="100" min="0" list="age" />
+    <datalist id="age">
+        <option value="0" label="jeune"></option>
+        <option value="18" label="actif"></option>
+        <option value="60" label="seinor"></option>
+    </datalist>
+    <label for="lsite">Liste des sites</label>
+    <input list="lisite" id="lsite" name="list_des_sites" />
+    <datalist id="lisite">
+        <option value="https://www.iut-valence.fr">
+        <option value="https://www.univ-grenoble-alpes.fr">
+        <option value="http://www.aduda.fr">
+    </datalist><br />
+    <label for="valider"></label>
+    <input type="submit" id="submit" name="valider" value="valider" />
+    <label for="raz"></label>
+    <input type="reset" id="reset" name="raz" value="annuler">
+    <br>
+    </form>
+</body>
+</html>
