@@ -1,5 +1,6 @@
 body {
     background-color: #d3d3d3;
+    margin-left:-1px;
 }
 
 ent {
@@ -8,9 +9,9 @@ ent {
     margin-right:-100%;
     padding-top:10%;
     padding-left:9%;
-    padding-right:100%;
+    padding-right:107%;
     margin-top:-10%;
-    padding-bottom:3%;
+    padding-bottom:50px;
     
 }
 
@@ -18,6 +19,7 @@ ent {
     width:125px;
     height:62px;
     position:absolute;
+    margin-left:2%;
 }
 
 #panier {
@@ -39,15 +41,14 @@ ent {
 menu {
     display:flex;
     background-color: #2e7d67;
-    margin-top: 2.9%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-top: 49px;
     margin-left: -1%;
     margin-right:-10%;
+    margin-bottom:0px;
 }
 
 menu a {
-    font-size: x-large;
+    font-size: 150%;
     color: white;
     text-decoration: none;
     padding-left: 100px;
@@ -69,14 +70,18 @@ menu a:hover {
 }
 
 header {
-    margin-top: -1%;
-    margin-left: 6%;
-    margin-bottom:4.2%;
+    margin-bottom:2.2%;
+    margin-left:5%;
+}
+
+#ether{
+    height:30%;
+    width:90%;
 }
 
 header p {
     background-color: #00000088;
-    font-size: 50px;
+    font-size: 300%;
     color: white;
     margin-left: 10%;
     padding: 2%;
@@ -88,7 +93,7 @@ header p {
 
 section {
     background-color: #c4ffed;
-    margin-left:6%;
+    margin-left:5%;
     margin-right:75%;
     padding-bottom:100%;
 }
