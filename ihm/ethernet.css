@@ -112,14 +112,16 @@ section h2{
 
 section p{
     display:inline;
-    margin-left:20%;
-    padding-left:10px;
+    padding-left:15px;
+    padding-right:50px;
 }
 
 .premier {
     display: inline;
     margin-left: 16%;
     padding-left:0px;
+    padding-right:0px;
+    margin-right:20%;
 }
 
 section input{
