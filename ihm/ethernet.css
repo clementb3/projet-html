@@ -72,7 +72,6 @@ menu a:hover {
 header {
     margin-bottom:-0.3%;
     margin-left:5%;
-    margin-right:-8px;
     padding-right:5%;
 }
 
@@ -114,7 +113,7 @@ section h2{
 section p{
     display:inline;
     padding-left:15px;
-    padding-right:50px;
+    padding-right:60px;
 }
 
 .premier {
@@ -140,7 +139,9 @@ article{
     flex-wrap: wrap;
     flex-basis: 80%;
     margin-top: -100%;
-    margin-left:25%;    
+    margin-left:25%;
+    background-color:white;
+    margin-right:5%;
 }
 
 article fieldset{
