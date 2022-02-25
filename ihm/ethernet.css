@@ -156,6 +156,16 @@ article fieldset{
     
 }
 
+article input{
+    border:none;
+    background-color:green;
+    color:white;
+    width:100px;
+    height:100px;
+    border-radius:10px;
+    font-size:20px;
+    padding-right:20px;
+}
 /*footer article{
     background-color: #37b08d;
     margin-right:-50%;
@@ -176,4 +186,16 @@ article fieldset{
 }
 footer article a{
     text-align: end;
+}
+
+article p:first-of-type{
+    font-size:x-large;
+    width:61%;
+    text-align:center;
+}
+
+article p{
+    padding-left:1%;
+    padding-right:1%;
+    text-align:center;
 }
