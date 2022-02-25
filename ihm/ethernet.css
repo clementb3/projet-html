@@ -113,11 +113,13 @@ section h2{
 section p{
     display:inline;
     margin-left:20%;
+    padding-left:10px;
 }
 
 .premier {
     display: inline;
     margin-left: 16%;
+    padding-left:0px;
 }
 
 section input{
@@ -126,7 +128,7 @@ section input{
 }
 
 .widthnum{
-    width: 50px;
+    width: 40px;
     
 }
 
