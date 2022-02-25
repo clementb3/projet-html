@@ -111,15 +111,18 @@ section h2{
 }
 
 section p{
+    display:inline;
+    padding-left:15px;
+    padding-right:50px;
 }
 
 .premier {
     margin-left:11%;
 }
 
-section input {
-    width: 10%;
-    margin-left: 10%;
+section input{
+    width:10%;
+    margin-left:16%;
 }
 
 .widthnum{
