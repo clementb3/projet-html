@@ -70,37 +70,40 @@ menu a:hover {
 }
 
 header {
-    margin-bottom:2.2%;
+    margin-bottom:-0.3%;
     margin-left:5%;
+    margin-right:-8px;
+    padding-right:5%;
 }
 
 #ether{
+    flex:1;
     height:30%;
-    width:90%;
+    width:100%;
 }
 
-header p {
+/*header p {
     background-color: #00000088;
-    font-size: 300%;
+    height: 58px;
     color: white;
-    margin-left: 10%;
+    font-size:50px;
     padding: 2%;
-    margin-right: 71%;
     border-radius: 20px;
-    margin-top: -12%;
-    position:relative;
-}
+    position: relative;
+    width: 150px;
+}*/
 
 section {
     background-color: #c4ffed;
     margin-left:5%;
     margin-right:75%;
     padding-bottom:100%;
+    margin-top:-24px;
 }
 
 section h1{
     margin-left:10%;
-    padding-top:5%
+    padding-top:6%
 }
 section h2{
     margin-left:15%;
@@ -110,6 +113,11 @@ section h2{
 section p{
     display:inline;
     margin-left:20%;
+}
+
+.premier {
+    display: inline;
+    margin-left: 16%;
 }
 
 section input{
@@ -122,9 +130,6 @@ section input{
     
 }
 
-section input:first-of-type {
-    margin-left: 13.5%;
-}
 article{
     display: flex;
     flex-wrap: wrap;
