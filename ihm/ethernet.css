@@ -101,7 +101,7 @@ header p {
 section {
     background-color: #c4ffed;
     margin-left:5%;
-    margin-right:75%;
+    margin-right:80%;
     padding-bottom:100%;
     margin-top:-75px;
     height:0px;
@@ -145,7 +145,7 @@ article{
     flex-wrap: wrap;
     flex-basis: 80%;
     margin-top: -100%;
-    margin-left:25%;
+    margin-left:20%;
     background-color:white;
     margin-right:5%;
     height:0%;
@@ -160,7 +160,7 @@ article fieldset {
     align-items: center;
 }
 
-article input {
+article button {
     border: none;
     background-color: #00b500;
     color: white;
@@ -171,6 +171,7 @@ article input {
     padding-right: 20px;
     margin-left: 150px;
     margin-top: -55%;
+    text-align:center;
 }
 /*footer article{
     background-color: #37b08d;
@@ -218,4 +219,8 @@ article p:last-of-type {
 
 fieldset{
     margin:10px;
+}
+
+article a {
+    font-size:xx-large;
 }
