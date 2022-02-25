@@ -72,6 +72,7 @@ menu a:hover {
 header {
     margin-bottom:-0.3%;
     margin-left:5%;
+    margin-right:-8px;
     padding-right:5%;
 }
 
@@ -113,7 +114,7 @@ section h2{
 section p{
     display:inline;
     padding-left:15px;
-    padding-right:60px;
+    padding-right:50px;
 }
 
 .premier {
@@ -124,15 +125,9 @@ section p{
     margin-right:20%;
 }
 
-<<<<<<< HEAD
-section input {
-    width: 10%;
-    margin-left: 10%;
-=======
 section input{
     width:10%;
     margin-left:16%;
->>>>>>> parent of 3dad5eb (V11)
 }
 
 .widthnum{
@@ -145,9 +140,7 @@ article{
     flex-wrap: wrap;
     flex-basis: 80%;
     margin-top: -100%;
-    margin-left:25%;
-    background-color:white;
-    margin-right:5%;
+    margin-left:25%;    
 }
 
 article fieldset{
