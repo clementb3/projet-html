@@ -195,7 +195,7 @@ article p:first-of-type{
 }
 
 article p{
-    padding-left:1%;
-    padding-right:1%;
+    width:64%;
     text-align:center;
+    margin-top:-10%;
 }
